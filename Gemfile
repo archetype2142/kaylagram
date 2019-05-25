@@ -15,7 +15,7 @@ gem 'dotenv-rails'
 gem 'devise'
 # gem 'fog-aws'
 gem 'aws-sdk-s3', require: false
-gem 'asset_sync'
+# gem 'asset_sync'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
