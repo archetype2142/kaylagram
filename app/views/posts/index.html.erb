@@ -1,8 +1,0 @@
-<% provide(:title, "Post") %>
-<div class="container">
-	<% @posts.each do |post| %>
-	<%= image_tag post.image.url(:medium) %>
-	<br>
-	<%= post.description %>
-	<% end %>
-</div>
