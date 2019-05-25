@@ -1,9 +1,0 @@
-<div class="container form">
-	<h1 style="text-align: center;"><strong>New Post,</strong> Post your world</h1>
-	<%= bootstrap_form_for @post, html: { multipart: true } do |f| %>
-	<%= f.file_field :image %>
-	<%= f.text_area :description, :placeholder => "Description..." %>
-	<br>
-	<%= f.submit :class => "btn btn-lg center-block" %>
-	<% end %>
-</div>
