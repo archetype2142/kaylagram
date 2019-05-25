@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'dotenv-rails'
 gem 'devise'
-gem 'fog-aws'
+# gem 'fog-aws'
 gem 'aws-sdk-s3', require: false
 gem 'asset_sync'
 
