@@ -1,7 +1,5 @@
 <p> test </p>
-<% if User.find(params[:user_id]).profile_pictures.last.image.attached? %>
-<%= image_tag User.find(params[:user_id]).profile_pictures.last.image %>
-<% end %>
+
 <%= form_for(User.find(params[:user_id]), url: user_profile_path(id: User.find(params[:user_id]).id), html: { method: :put }) do |f| %>
 
   <div class="field">
